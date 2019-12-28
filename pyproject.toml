@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "MagBeltBot"
+version = "0.1.0"
+description = "A Bot to help with the 24/7 Magfest Belt Championship"
+authors = ["Erik van der Goetz <erik.vandergoetz@gmail.com>", "Brittany Rash <britrash@gmail.com>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/Erik-vdg/MagBeltBot"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pywemo = "^0.4.41"
+tweepy = "^3.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+doc8 = "^0.8.0"
+pylint = "^2.4.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
